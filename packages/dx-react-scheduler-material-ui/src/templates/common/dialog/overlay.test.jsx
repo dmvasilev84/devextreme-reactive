@@ -58,7 +58,6 @@ describe('Common Dialog', () => {
           onClose: defaultProps.onHide,
           BackdropProps: { className: classes.modal },
           container: null,
-          onBackdropClick: defaultProps.onHide,
         });
     });
   });

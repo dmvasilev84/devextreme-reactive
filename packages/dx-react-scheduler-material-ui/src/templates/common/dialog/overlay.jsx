@@ -33,7 +33,6 @@ export const Overlay = ({
     BackdropProps={{ className: classes.modal }}
     PaperProps={{ className: classes.paper }}
     container={target.current}
-    onBackdropClick={onHide}
     {...restProps}
   >
     {children}
