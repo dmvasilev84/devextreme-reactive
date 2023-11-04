@@ -91,7 +91,7 @@ export const Overlay = ({
       variant="temporary"
       anchor="left"
       transitionDuration={TRANSITIONS_TIME}
-      onBackdropClick={onHide}
+      onClose={onHide}
       {...restProps}
     >
       {children}
